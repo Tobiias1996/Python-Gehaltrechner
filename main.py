@@ -4,7 +4,7 @@
 
 Auswahl=input("Mit welchem Wert möchten Sie rechnen? Geben Sie eine der folgenden Zahlen ein für: 1: Stundenlohn. 2: Tageslohn. 3: Wochenlohn. 4: Monatslohn. 5: Jahreslohn\n")
 
-# print(type (Auswahl)) Zahlen in Auswahl sind string, da die Zahlen in der input Frage ebenfalls ein string sind
+# print(type (Auswahl)) Zahlen in Auswahl sind string und kein int, da die Zahlen in der input Frage ebenfalls string sind
 
 if(Auswahl=="1"):
     stundenlohn = input("Wie Geld verdienen Sie pro Stunde ")
