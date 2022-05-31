@@ -61,4 +61,9 @@ elif (Auswahl=="5"):
     print("Sie verdienen " + str(wochenlohn) + " in der Woche")
     print("Sie verdienen " + str(monatslohn) + " im Monat")
 
+else:
+    print ("Ungültige Eingabe. Bitte nur die Zahlen 1 bis 5 benutzen.")
+
+
+
 
